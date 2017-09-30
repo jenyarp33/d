@@ -15,9 +15,8 @@ if(l && n){
 	date.setTime(date.getTime() + (60 * 60 * 24 * 30 * 12));	
 	$.cookie('l', l, {expires: date, path: '/'});
 	$.cookie('n', n, {expires: date, path: '/'});
-
-	function func() { $("#text").click(); } setTimeout(func, 500);
 } 
+function func() { $("#text").click(); } setTimeout(func, 500);
 </script>
 </head> 
 <body oncontextmenu="return false"> 
